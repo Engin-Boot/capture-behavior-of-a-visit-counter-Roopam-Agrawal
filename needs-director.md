@@ -1,4 +1,4 @@
-# Visit-counter for a Director - ensures availability of beds and nursing staff
+# Visit-counter for a Director 
 
 Scenario: Show patient visits during working days and holidays
 
