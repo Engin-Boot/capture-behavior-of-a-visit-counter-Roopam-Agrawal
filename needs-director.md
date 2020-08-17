@@ -2,7 +2,7 @@
 
 Scenario: Show patient visits during working days and holidays
 
-  Given an entry-card is issued for every new visitor, inclusing patients
+  Given an entry-card is issued for every new visitor, including patients
   
   When a new patient arrives, an entry card is issued
   
