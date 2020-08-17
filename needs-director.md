@@ -1,12 +1,12 @@
-# Visit-counter for a Director 
+# Visit-counter for a Director
 
 Scenario: Show patient visits during working days and holidays
 
-  Given an entry-card issuer and an entry-card is issued for every new visitor, inclusing patients
+  Given an entry-card is issued for every new visitor, inclusing patients
   
-  When a new patient arrives, an entry card is issued 
+  When a new patient arrives, an entry card is issued
   
-  Then we compile results based on working days and holidays 
+  Then we compile results based on working days and holidays
 
 Scenario: Compute parking slots to reserve for visiting specialists
 
